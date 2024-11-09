@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dömörövö Közösségi Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigációs sáv -->
+    <header>
+        <h1>Közösségi Platform</h1>
+        <nav>
+            <a href="#login">Bejelentkezés</a>
+            <a href="#register">Regisztráció</a>
+        </nav>
+    </header>
+
+    <!-- Bejelentkezés szekció -->
+    <section id="login" class="form-section">
+        <h2>Bejelentkezés</h2>
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="password">Jelszó:</label>
+            <input type="password" id="password" required>
+            
+            <button type="submit">Bejelentkezés</button>
+        </form>
+        <div class="social-login">
+            <button class="google">Bejelentkezés Google-lel</button>
+            <button class="apple">Bejelentkezés Apple-lel</button>
+        </div>
+    </section>
+
+    <!-- Regisztrációs szekció -->
+    <section id="register" class="form-section">
+        <h2>Regisztráció</h2>
+        <form>
+            <label for="username">Felhasználónév:</label>
+            <input type="text" id="username" required>
+            
+            <label for="email-reg">Email:</label>
+            <input type="email" id="email-reg" required>
+            
+            <label for="password-reg">Jelszó:</label>
+            <input type="password" id="password-reg" required>
+            
+            <button type="submit">Regisztráció</button>
+        </form>
+    </section>
+
+    <!-- Chat ablak szekció -->
+    <section id="chat">
+        <h2>Csevegés</h2>
+        <div class="chat-window">
+            <div class="message">Másik felhasználó: Szia!</div>
+            <div class="message user">Én: Szia, hogy vagy?</div>
+        </div>
+        <form class="chat-form">
+            <input type="text" placeholder="Írj egy üzenetet...">
+            <button type="submit">Küldés</button>
+            <button type="button" class="call-button">Hívás</button>
+        </form>
+    </section>
+
+</body>
+</html>￼Enter
